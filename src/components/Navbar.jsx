@@ -54,11 +54,11 @@ const Navbar = () => {
                 {nav ? <FaTimes size={20} /> : <img src={menu} alt="menu" />}
             </div>
             {nav && (
-                <ul className={` left-[210px] w-full h-screen flex flex-col justify-center items-center absolute top-0 z-40 bg-white rounded-md overflow-hidden shadow-xl text-black  px-2 py-6 transition duration-200 ease-in-out ${nav ? 'transform scale-110 md:hidden' : ''}`}>
+                <ul className={` left-[210px] w-full h-4/2 flex flex-col justify-center items-center mt-10 absolute top-0 z-40 bg-white rounded-md overflow-hidden shadow-xl text-black  px-2 py-6 transition duration-200 ease-in-out ${nav ? 'transform scale-110 md:hidden' : ''}`}>
                     {links.map(({ id, link }) => (
                         <li
                             key={id}
-                            className={"py-[12px] px-[24px] border-b-2 border-blue-50 mr-[200px] mb-7 cursor-pointer capitalize  font-normal text-base hover:scale-105 duration-200 font-san rounded-md   active:scale-[.98] active:duration-75 transition-all  ease-in-out transform text-4 md:hidden "}>
+                            className={"py-[12px] px-[24px] border-b-2 border-blue-50 mr-[200px] cursor-pointer capitalize  font-normal text-base hover:scale-105 duration-200 font-san rounded-md   active:scale-[.98] active:duration-75 transition-all  ease-in-out transform text-4 md:hidden "}>
 
                             <Link onClick={() => setNav(!nav)} to={link} smooth duration={500}>{link}</Link>
                         </li>
