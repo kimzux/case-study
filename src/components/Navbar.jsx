@@ -51,14 +51,14 @@ const Navbar = () => {
                 ))}
             </ul>
             <div onClick={() => setNav(!nav)} className={`cursor-pointer pr-4 z-50 text-purple hover:bg-transparent transition duration-200 ease-in-out  md:hidden lg:hidden xl:hidden 2xl:hidden ${nav ? 'transform rotate-90' : ''}`}>
-                {nav ? <FaTimes size={30} /> : <img src={menu} alt="menu" />}
+                {nav ? <FaTimes size={20} /> : <img src={menu} alt="menu" />}
             </div>
             {nav && (
-                <ul className={`w-full flex flex-col justify-center items-center absolute top-0 z-40 bg-white rounded-md overflow-hidden shadow-xl text-black  px-6 py-4 transition duration-200 ease-in-out ${nav ? 'transform scale-110 md:hidden' : ''}`}>
+                <ul className={` left-[210px] w-full h-screen flex flex-col justify-center items-center absolute top-0 z-40 bg-white rounded-md overflow-hidden shadow-xl text-black  px-2 py-6 transition duration-200 ease-in-out ${nav ? 'transform scale-110 md:hidden' : ''}`}>
                     {links.map(({ id, link }) => (
                         <li
                             key={id}
-                            className={"py-[12px] px-[24px] border-b-2 border-blue-50  cursor-pointer capitalize  font-normal text-base hover:scale-105 duration-200 font-san rounded-md   active:scale-[.98] active:duration-75 transition-all  ease-in-out transform text-4 md:hidden "}>
+                            className={"py-[12px] px-[24px] border-b-2 border-blue-50 mr-[200px] mb-7 cursor-pointer capitalize  font-normal text-base hover:scale-105 duration-200 font-san rounded-md   active:scale-[.98] active:duration-75 transition-all  ease-in-out transform text-4 md:hidden "}>
 
                             <Link onClick={() => setNav(!nav)} to={link} smooth duration={500}>{link}</Link>
                         </li>
