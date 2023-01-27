@@ -94,7 +94,7 @@ const Ourmission = () => {
                     <img src={fone} alt='profile' className=''/>
                     <span className='absolute top-[15px] left-[100px]'>Increased workOwnership</span>
                 </div>
-                <img src={image} alt="profile" className='w-[280px] ml-8'/>
+                <img src={image} alt="profile" className='w-[280px] ml-3 mt-10'/>
              </div>
             </div>
         </div>
