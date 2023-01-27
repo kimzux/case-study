@@ -8,6 +8,7 @@ import fthree from '../assets/fthree.svg'
 import ffour from '../assets/ffour.svg'
 import fsix from '../assets/fsix.svg'
 import fseven from '../assets/fseven.svg'
+import image from '../assets/image.svg'
 
 const Ourmission = () => {
     return (
@@ -69,17 +70,17 @@ const Ourmission = () => {
              <div className='flex ml-[70px] mt-[30px] relative  '>
              <p className='text-[24px] font-firma-light'>The value of understanding <br/> people psychology in the <br className='md:hidden'/> workplace.</p> 
              <div className='absolute top-[100px] md:grid grid-cols-2'>
-                <div className='flex mt-[30px] relative'>
+                <div className=' mt-[30px] relative'>
                     <img src={fseven} alt='profile' className=''/>
-                    <span className='absolute top-[25px] left-[100px]'>Reduced Stress</span>
+                    <span className='absolute top-[20px] left-[100px]'>Reduced Stress</span>
                 </div>
                 <div className='flex mt-[30px] relative md:right-[300px] '>
                     <img src={ftwo} alt='profile' className=''/>
-                    <span className='absolute top-[20px] left-[100px]'>Effective<br/>Leadership</span>
+                    <span className='absolute top-[20px] left-[100px]'>Effective Leadership</span>
                 </div>
                 <div className='flex mt-[30px] relative'>
                     <img src={fthree} alt='profile' className=''/>
-                    <span className='absolute top-[20px] left-[100px]'>Productive<br/> Workspce-Culture</span>
+                    <span className='absolute top-[10px] left-[100px]'>Productive WorkspaceCulture</span>
                 </div>
                 <div className='flex mt-[30px] relative md:right-[300px] '>
                     <img src={ffour} alt='profile' className=''/>
@@ -91,9 +92,9 @@ const Ourmission = () => {
                 </div>
                 <div className='flex mt-[30px] relative md:right-[300px] '>
                     <img src={fone} alt='profile' className=''/>
-                    <span className='absolute top-[20px] left-[100px]'>Increase work-Ownership</span>
+                    <span className='absolute top-[15px] left-[100px]'>Increased workOwnership</span>
                 </div>
-
+                <img src={image} alt="profile" className='w-[280px] ml-8'/>
              </div>
             </div>
         </div>
