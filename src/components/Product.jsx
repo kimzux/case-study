@@ -7,7 +7,7 @@ import { HiArrowLeft } from 'react-icons/hi';
 const Product = () => {
     return (
         <div className='w-full flex relative'>
-            <div className='flex flex-col  justify-center w-[360px] h-[600px] bg-gradient-to-t from-colortwo to-pro-color rounded-[60px] absolute top-[1900px] left-[60px]'>
+            {/* <div className='flex flex-col  justify-center w-[360px] h-[600px] bg-gradient-to-t from-colortwo to-pro-color rounded-[60px] absolute  left-[60px] mt-[1900px]'>
                 <span className='absolute left-[140px] top-[30px] text-white font-firma text-[24px]'>Review</span>
                 <div>
                     <img src={group} alt='product' className="absolute left-[80px] top-[90px]"/>
@@ -24,8 +24,8 @@ const Product = () => {
                   <img src={arrow} alt="arrow" className='absolute left-[180px]'/>
                   </div>
                 </div>
-            </div>
-        </div>
+            </div>*/}
+        </div> 
     )
 }
 
