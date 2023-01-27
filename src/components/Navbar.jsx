@@ -50,7 +50,7 @@ const Navbar = () => {
                     </li>
                 ))}
             </ul>
-            <div onClick={() => setNav(!nav)} className={`cursor-pointer pr-4 z-50 text-purple hover:bg-purple-300 transition duration-200 ease-in-out  md:hidden lg:hidden xl:hidden 2xl:hidden ${nav ? 'transform rotate-90' : ''}`}>
+            <div onClick={() => setNav(!nav)} className={`cursor-pointer pr-4 z-50 text-purple hover:bg-transparent transition duration-200 ease-in-out  md:hidden lg:hidden xl:hidden 2xl:hidden ${nav ? 'transform rotate-90' : ''}`}>
                 {nav ? <FaTimes size={30} /> : <img src={menu} alt="menu" />}
             </div>
             {nav && (
