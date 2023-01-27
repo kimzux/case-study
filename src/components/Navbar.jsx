@@ -54,7 +54,7 @@ const Navbar = () => {
                 {nav ? <FaTimes size={30} /> : <img src={menu} alt="menu" />}
             </div>
             {nav && (
-                <ul className={`w-full flex flex-col justify-center items-center absolute top-0  bg-white rounded-md overflow-hidden shadow-xl text-black  px-6 py-4 transition duration-200 ease-in-out ${nav ? 'transform scale-110 md:hidden' : ''}`}>
+                <ul className={`w-full flex flex-col justify-center items-center absolute top-0 z-50 bg-white rounded-md overflow-hidden shadow-xl text-black  px-6 py-4 transition duration-200 ease-in-out ${nav ? 'transform scale-110 md:hidden' : ''}`}>
                     {links.map(({ id, link }) => (
                         <li
                             key={id}
