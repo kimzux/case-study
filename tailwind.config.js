@@ -8,7 +8,11 @@ module.exports = {
         'home-color':'#181B32',
         'home':'#474099',
         'btn-one':'#6C36B2',
-        'btn-two':'#3C70DD'
+        'btn-two':'#3C70DD',
+        'pro-color':'#45108A',
+        'colortwo':'#6C36B2',
+        'recttwo': '#007AC1'
+
         },
         fontFamily: {
           firma: ["BR Firma"],

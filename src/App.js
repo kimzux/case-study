@@ -1,6 +1,7 @@
 import Hero from './components/Hero';
 import Navbar from './components/Navbar'
 import Ourmission from './components/Ourmission';
+import Product from './components/Product';
 
 
 const App = () => {
@@ -9,6 +10,7 @@ const App = () => {
       <Navbar />
       <Hero />
       <Ourmission/>
+      <Product/>
     </div>
   );
 }
