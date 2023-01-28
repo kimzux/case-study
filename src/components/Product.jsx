@@ -1,8 +1,8 @@
 import React from 'react'
-import group from '../assets/Group.svg'
-import vector from '../assets/Vector.svg'
-import arrow from '../assets/arrow.svg'
-import { HiArrowLeft } from 'react-icons/hi';
+// import group from '../assets/Group.svg'
+// import vector from '../assets/Vector.svg'
+// import arrow from '../assets/arrow.svg'
+// import { HiArrowLeft } from 'react-icons/hi';
 
 const Product = () => {
     return (
